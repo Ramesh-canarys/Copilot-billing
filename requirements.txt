@@ -1,0 +1,4 @@
+requests==2.32.0
+python-csv==0.0.13
+urllib3==1.26.15
+python-dateutil==2.9.0
