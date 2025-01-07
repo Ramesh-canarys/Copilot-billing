@@ -48,3 +48,19 @@ github-custom-action
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Publishing to GitHub Marketplace
+
+To publish this custom action to the GitHub Marketplace, follow these steps:
+
+1. **Create a release**: Go to the "Releases" section of your repository and create a new release. Tag the release with a version number (e.g., `v1.0.0`).
+
+2. **Update `action.yml`**: Ensure that your `action.yml` file includes the necessary metadata fields such as `name`, `description`, `branding`, `inputs`, and `runs`.
+
+3. **Update workflow**: Update your GitHub Actions workflow file (`.github/workflows/action.yml`) to include steps for publishing the action to the GitHub Marketplace.
+
+4. **Push changes**: Commit and push your changes to the `main` branch of your repository.
+
+5. **Submit to Marketplace**: Go to the GitHub Marketplace page and submit your action for review. Follow the instructions provided by GitHub to complete the submission process.
+
+6. **Monitor and maintain**: After your action is published, monitor its usage and maintain it by addressing any issues or updates that arise.
