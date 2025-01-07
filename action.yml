@@ -1,0 +1,19 @@
+name: "GitHub Custom Action for Copilot Billing"
+description: "A GitHub custom action that retrieves billing seat information from the GitHub API, calculates billing based on active days, and writes the results to a CSV file."
+author: "Ramesh-canarys"
+branding:
+  color: "blue"
+  icon: "server"
+inputs:
+  enterprise_slug:
+    description: "The enterprise slug for the GitHub API."
+    required: true
+  auth_token:
+    description: "The authentication token for the GitHub API."
+    required: true
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - ${{ inputs.enterprise_slug }}
+    - ${{ inputs.auth_token }}
