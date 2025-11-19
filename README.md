@@ -64,3 +64,5 @@ To publish this custom action to the GitHub Marketplace, follow these steps:
 5. **Submit to Marketplace**: Go to the GitHub Marketplace page and submit your action for review. Follow the instructions provided by GitHub to complete the submission process.
 
 6. **Monitor and maintain**: After your action is published, monitor its usage and maintain it by addressing any issues or updates that arise.
+
+7. 
